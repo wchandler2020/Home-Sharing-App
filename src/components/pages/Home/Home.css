@@ -1,0 +1,43 @@
+.home{
+    padding: 0px !important;
+
+}
+
+.upper-fold-wrapper{
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.home .upper-fold{
+    height: 60vh !important;
+    width: 55vw;
+    background-image: linear-gradient(0deg, rgba(000, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://advertising.expedia.com/wp-content/uploads/2020/08/1_Homepage-Hero-BeachSunset_1920x800-2.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-bottom: 100px;
+    margin-top: -120px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    right: 109px;
+    top: 100px;
+
+}
+
+.lower-fold{
+    padding: 0 80px;
+}
+
+.search-box{
+    z-index: 99;
+    height: fit-content;
+    position: absolute;
+    left: 12%;
+    bottom: 36%;
+    padding: 0;
+    margin: 0;
+    width: 400px;
+
+}

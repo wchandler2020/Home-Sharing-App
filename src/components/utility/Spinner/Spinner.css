@@ -1,0 +1,10 @@
+.spinner{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.spinner img{
+    height: 300px;
+    width: 300px;
+}

@@ -1,0 +1,39 @@
+@import "./components/utility/Navbar/Navbar.css";
+@import "./components/pages/Home/Home.css";
+@import "./components/pages/Home/SearchBox.css";
+@import "./components//utility/Spinner/Spinner.css";
+@import "./components/utility/City/City.css";
+@import "./components/utility/Slider/Slider.css";
+@import "./components/utility/PageDividers/BecomeAHost.css";
+@import "./components/utility/Activity/Activity.css";
+@import "./components//utility/Venues/Venue.css";
+@import "./components/pages/SingleVenue/SingleVenue.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+body{
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.text-link{
+    cursor: pointer;
+    color: blue;
+  }
+
+  .App{
+    padding: 0 200px; 
+  }
+
+  .main-header-text{
+    font-size: 28px !important;
+    line-height: 36px !important;
+    letter-spacing: normal !important;
+    color: #484848 !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    margin: 0px !important;
+    margin:40px 0 10px !important;
+    padding: 0px 20px !important;
+    font-weight: bold;
+  }

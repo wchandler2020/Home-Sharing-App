@@ -1,0 +1,39 @@
+.host-wrapper{
+    padding: 0 22px;
+}
+
+.host-container{
+    background: linear-gradient(0deg, rgba(000, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://www.news.uct.ac.za/cache/images/userfiles/images/news/2020/800x0/normal/2020-04-07_home-office.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.host-text{
+    position: relative;
+    left: 60px;
+    top: 60px;
+    color: #fff;
+}
+
+.host-text h1{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 3.5rem;
+
+}
+
+.host-text p{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: .8rem !important;
+}
+.host-text .btn{
+    margin-top: 1.5rem;
+    font-size: 1.2rem !important;
+}
