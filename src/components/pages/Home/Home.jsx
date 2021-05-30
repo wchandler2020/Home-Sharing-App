@@ -17,7 +17,10 @@ class Home extends Component {
         venues: []
     }
 
+
+
     async componentDidMount(){
+        //const citiesURL = "http://localhost:8000/api/cities/";
         const citiesURL = `${window.apiHost}/cities/recommended`;
         const europeCities = `${window.apiHost}/cities/europe`;
         const asiaCities = `${window.apiHost}/cities/asia`;
